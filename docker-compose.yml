@@ -1,0 +1,14 @@
+db:
+  image: mysql
+  environment:
+    - MYSQL_ROOT_PASSWORD=pass
+
+app:
+  image: revollat/nginx-php-composer
+  ports:
+    - 8099:80
+  links:
+    - db:mysql
+  volumes:
+    - .:/var/www
+    - ./nginx:/etc/nginx/sites-enabled
