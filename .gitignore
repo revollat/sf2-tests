@@ -12,3 +12,4 @@
 /.idea/
 .bash_history
 /nginx/
+/.composer/
