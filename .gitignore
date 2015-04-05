@@ -6,10 +6,8 @@
 !app/logs/.gitkeep
 /app/phpunit.xml
 /bin/
-/composer.phar
 /vendor/
 /web/bundles/
 /.idea/
 .bash_history
-/nginx/
 /.composer/
