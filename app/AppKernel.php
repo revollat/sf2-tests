@@ -18,12 +18,28 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
 
+            new JMS\SerializerBundle\JMSSerializerBundle(),
+
             new Sonata\CoreBundle\SonataCoreBundle(),
             new Sonata\BlockBundle\SonataBlockBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
-            //new Sonata\IntlBundle\SonataIntlBundle(),
+            new Sonata\IntlBundle\SonataIntlBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
+
+            new Sonata\MediaBundle\SonataMediaBundle(),
+            new Sonata\EasyExtendsBundle\SonataEasyExtendsBundle(),
+            new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle(),
+
+//            //new Sonata\MarkItUpBundle\SonataMarkItUpBundle(),
+//            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
+//            new Sonata\NewsBundle\SonataNewsBundle(),
+//            new Sonata\UserBundle\SonataUserBundle(),
+//            new Sonata\FormatterBundle\SonataFormatterBundle(),
+//            new FOS\UserBundle\FOSUserBundle(),
+//            new Knp\Bundle\MarkdownBundle\KnpMarkdownBundle(),
+
+
 
         );
 

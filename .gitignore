@@ -8,6 +8,7 @@
 /bin/
 /vendor/
 /web/bundles/
+/web/uploads/
 /.idea/
 .bash_history
 /.composer/
